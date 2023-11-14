@@ -1,0 +1,22 @@
+.sec7{
+    background-image: url(image/5e85d76b779115d93f173df79e115ed9.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+z-index: 1;}
+
+.bgbanner{
+    background-image: linear-gradient(to top , #111111 0%, rgba(17, 17, 17, 0) 100%),url(image/55465612188a9bffb6dd5d0d8c960959.jpeg);
+    background-size: cover;
+}
+
+.sec7::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(3, 3, 15, 0.5);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 0;
+  }
